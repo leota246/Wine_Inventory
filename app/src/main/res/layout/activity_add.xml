@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE7D3"
+    tools:context=".AddActivity">
+
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Name: "
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvname"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Type:"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvgrape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvtype"
+        android:text="Grape:"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvgrape"
+        android:text="Location:"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvquantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlocation"
+        android:text="Quantity"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvquantity"
+        android:text="Price: "
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvprice"
+        android:layout_centerHorizontal="true"
+        android:text="Create New Data" />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Name of wine" />
+
+    <EditText
+        android:id="@+id/ettype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etname"
+        android:hint="Red or White" />
+    <EditText
+        android:id="@+id/etgrape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ettype"
+        android:hint="Type of Grape" />
+    <EditText
+        android:id="@+id/etlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etgrape"
+        android:hint="Location/Region" />
+    <EditText
+        android:id="@+id/etquantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etlocation"
+        android:hint="Quantity" />
+    <EditText
+        android:id="@+id/etprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etquantity"
+        android:hint="Price" />
+
+</RelativeLayout>
